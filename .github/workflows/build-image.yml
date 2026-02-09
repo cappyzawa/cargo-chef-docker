@@ -132,8 +132,6 @@ jobs:
         base_img: [slim, bullseye, slim-bullseye, bookworm, slim-bookworm]
 
     steps:
-    - uses: actions/checkout@v5.0.1
-
     - name: Docker meta
       id: meta
       uses: docker/metadata-action@v5.8.0
